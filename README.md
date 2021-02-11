@@ -1,12 +1,11 @@
 # Laravel Blog
 A simple blog for demonstration purpose. Based on Laravel 7.
-# Demo
-https://youtu.be/aVnhvvWIpPc
+
 # Installation
 Clone the repository-
 Then cd into the folder with this command-
 ```sh
-cd myblog
+cd blog
 ```
 Then do a composer install
 ```sh
@@ -18,7 +17,7 @@ cp .env.example .env
 ```
 Then edit .env file with appropriate credential for your database server. Just edit these two parameter(DB_USERNAME, DB_PASSWORD).
 
-Then create a database named "myblog" and then do a database migration using this command-
+Then create a database named "blog" and then do a database migration using this command-
 ```sh
 php artisan migrate
 ```
